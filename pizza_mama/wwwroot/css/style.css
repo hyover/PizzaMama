@@ -1,0 +1,80 @@
+﻿body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/menu_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial;
+    margin: 0;
+    color: white;
+}
+
+body.home-page {
+    background-image: url("/images/main_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.home-page {
+    color: red;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+#small-logo {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+h1 {
+    background-color: #DD7835;
+    color: white;
+    padding: 8px 22px;
+    display: inline;
+}
+
+.menu-title {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.menu-list {
+    margin-left: 30px;
+}
+
+.menu-list-item {
+    font-size: 1.5rem;
+    margin: 30px 15px;
+}
+
+.menu-list-title {
+    font-weight: bold;
+}
+
+.menu-list-price {
+    color: #DD7835;
+    margin-left : 8px;
+}
+
+
+.menu-list-ingredients {
+    color: #D8D8D8;
+    font-size: 0.7em;
+    display:block;
+    width: 50%;
+}
+
+.menu-list-badge {
+    color: black;
+    background-color: #DD7835;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
